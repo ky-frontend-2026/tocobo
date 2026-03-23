@@ -131,6 +131,14 @@ footer {
                     margin-top: 2rem;
                 }
             }
+            .sns-links{
+                display: flex;
+                gap: 1rem;
+                margin-top: 2rem;
+                @media screen and (max-width:1111px) {
+                // display: none;
+            }
+            }
         }
 
         h4 {
